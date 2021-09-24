@@ -1,0 +1,122 @@
+body {
+    background-color: #f0ebf8;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.div_outer_box {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    padding: 24px;
+    padding-bottom: 48px;
+    border-radius: 8px;
+    width: 50%;
+    align: center;
+    margin: auto;
+}
+
+.invisible_div_l {
+    width: 53.5%;
+    align: center;
+    margin: auto;
+}
+
+.invisible_div {
+    width: 50%;
+    align: center;
+    margin: auto;
+}
+
+.px235 {
+    left: 23.5% !important;
+}
+
+#btn_submit {
+    position: absolute;
+    padding-left: 28px;
+    padding-right: 28px;
+    height: 36px;
+    background-color: #673ab7;
+    border-color: #673ab7;
+    color: white;
+    border-radius: 5px;
+}
+
+.text_is_red {
+    color: red !important;
+}
+
+.text_is_gray {
+    color: gray !important;
+}
+
+.inputs {
+    outline: none;
+    width: 295px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+div[class^="input_bottom_line"] {
+    width: 300px;
+    border-width: 300px;
+    border: 1px;
+    border-bottom: 1px solid;
+    margin-bottom: -1px;
+    border-color: lightgrey;
+    border-bottom-color: lightgrey;
+}
+
+.fulllengthline {
+    width: 600px !important;
+    border-width: 400px;
+}
+
+div[class^="input_bottom_line"]:hover {
+    border-bottom: 2px solid;
+    margin-bottom: -2px;
+}
+
+div.input_bottom_line_red:hover {
+    border-color: red !important;
+    border-bottom-color: red !important;
+}
+
+div.input_bottom_line_blue:hover {
+    border-color: blue !important;
+    border-bottom-color: blue !important;
+}
+
+#input_otherskill {
+    outline: none !important;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    width: 200%;
+}
+
+.nobreak {
+    white-space: nowrap !important;
+}
+
+.noline {
+    border-bottom: 0px solid !important;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 40px;
+}
+
+.img_centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: gray;
+}
